@@ -1,0 +1,238 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #FCFDFF;
+}
+
+.login-parent{
+    background-color: #159;
+    background-image: url("./login-bg.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.top-header{
+    background-color: #ffffff;
+    padding: 17px 20px 0px;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,.15);
+}
+
+.page-content{
+    margin-top: 80px;
+    padding-left: 20px;
+}
+
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Component Styles*/
+
+.modal-parent{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.15);
+    overflow-y: auto;
+    padding: 0px;
+    height: fit-content;
+    width: 340px;
+    overflow-x: hidden;
+    padding: 15px;
+    border-radius: 10px;
+    align-self: center;
+    transform: translateX(50%);
+}
+
+.primary-input{
+    width: calc(100% - 14px);
+    height: 20px;
+    padding: 7px;
+    background-color: #f2f2f2;
+    border: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.primary-select{
+    width: calc(100% - 1px);
+    height: 40px;
+    padding: 4px;
+    background-color: #f2f2f2;
+    border: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.primary-button{
+    width: 70%;
+    height: 40px;
+    padding: 7px;
+    background-color: #159;
+    border: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.xl-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.l-header{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.m-header{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.add-item-button{
+    width: 150px;
+    height: 50px;
+    background-color: #159;
+    color: #ffffff;
+    border: 0px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tr{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,.15);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.tr:hover{
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,.15);
+}
+
+.b{
+    font-weight: 700;
+}
+
+.manage-users{
+    width: 140px;
+    height: 50px;
+    background-color: #159;
+    color: #ffffff;
+    border: 0px;
+    position: fixed;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    right: 65px;
+    top: 12px;
+}
+
+.overlay{
+    background: rgba(0,0,0,.55);
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+}
+
+.modal-shadowed{
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: calc(35% - 20px);
+    margin-top: 50px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.pill-item{
+    background-color: #DDFFE6;
+    color: #129034;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.contact-information-parent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.close-modal{
+    width: 70px;
+    height: 40px;
+    border: 0px;
+    font-size: 17px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.edit-button{
+    background-color: #D3E9FF;
+    border: 0px;
+    color: #159;
+    border-radius: 4px;
+}
+/*End*/
+
+
+/*Element Styling*/
+
+h1, h2, h3, h4{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 80%;
+}
+
+td{
+    padding: 10px 0px 10px 5px;
+}
+
+button:hover{
+    background-color: #140000;
+    transition: .3s;
+}
+
+button{
+    transition: .3s;
+}
+
+
+small{
+    font-size: 7;
+}
+
+/*Element Styling End*/
